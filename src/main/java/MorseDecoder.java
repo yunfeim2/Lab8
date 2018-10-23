@@ -82,12 +82,17 @@ public class MorseDecoder {
          * There are four conditions to handle. Symbols should only be output when you see
          * transitions. You will also have to store how much power or silence you have seen.
          */
-
         // if ispower and waspower
         // else if ispower and not waspower
         // else if issilence and wassilence
         // else if issilence and not wassilence
-
+        String outPut = new String();
+        int count = 1;
+        for (int i = 0; i < powerMeasurements.length; i = i * 8) {
+            for (int j = 0; j < 8; j++) {
+                
+            }
+        }
         return "";
     }
 
